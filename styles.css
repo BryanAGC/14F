@@ -1,0 +1,107 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8e7d1;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.sunflower {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+}
+
+.face {
+  position: absolute;
+  width: 60px;
+  height: 70px;
+  background-color: #f4a460;
+  border-radius: 50%;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.petal {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.petal1 { top: 0; left: 30px; }
+.petal2 { top: 10px; left: 60px; }
+.petal3 { top: 40px; left: 70px; }
+.petal4 { top: 70px; left: 60px; }
+.petal5 { top: 80px; left: 30px; }
+.petal6 { top: 70px; left: 0; }
+.petal7 { top: 40px; left: -10px; }
+.petal8 { top: 10px; left: 0; }
+
+.stem {
+  position: absolute;
+  width: 10px;
+  height: 100px;
+  background-color: green;
+  top: 100px;
+  left: 45px;
+}
+
+.leaf {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  background-color: green;
+  border-radius: 20px;
+}
+
+.leaf-left {
+  top: 120px;
+  left: 10px;
+  transform: rotate(-30deg);
+}
+
+.leaf-right {
+  top: 120px;
+  left: 60px;
+  transform: rotate(30deg);
+}
+
+.pot {
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  background-color: #8b4513;
+  top: 180px;
+  left: 10px;
+  border-radius: 0 0 20px 20px;
+}
+
+button {
+    margin-top: 1px;
+    background-color: #ffcc5c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ffa726;
+}
+p {
+    margin-top: 150px; /* Ajusta este valor según lo que necesites */
+    font-size: 18px;
+  }
+  
